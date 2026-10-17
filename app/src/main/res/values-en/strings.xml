@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Calendar -->
+    <string name="calendar_no_schedule">Choose a schedule in the Profile tab.</string>
+    <string name="calendar_loading_error">Loading error</string>
+    <string name="week_label">Week of %1$s to %2$s</string>
+
+    <!-- Course details -->
+    <string name="cours_date">Date</string>
+    <string name="cours_time">Schedule</string>
+    <string name="cours_teacher">Teacher</string>
+    <string name="cours_teachers">Teachers</string>
+    <string name="cours_class">Class</string>
+    <string name="cours_close">Close</string>
+    <string name="cours_empty">—</string>
+
+    <!-- Profile -->
+    <string name="profile_not_connected">Not connected</string>
+    <string name="profile_logout">Log out</string>
+    <string name="profile_login_cas">Log in with CAS</string>
+    <string name="profile_sending">Sending…</string>
+    <string name="profile_fill_inbox_demo">Fill inbox (demo)</string>
+    <string name="profile_choose_schedule">Choose a schedule</string>
+    <string name="profile_unknown_schedule">Unknown (#%1$d)</string>
+    <string name="profile_displayed_schedule">Displayed schedule</string>
+    <string name="profile_demo_mails_created">%1$d demo emails created</string>
+    <string name="profile_seed_error">Seed error: %1$s</string>
+    <string name="profile_change_language_cd">Change language</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+
+    <!-- Search -->
+    <string name="search_title">Find a free room</string>
+    <string name="search_button">Search</string>
+    <string name="search_error">Search error</string>
+    <string name="search_no_results">No room matches your filters</string>
+    <string name="search_now">Now</string>
+    <string name="search_precise_time">Precise time</string>
+    <string name="search_filters">Filters</string>
+    <string name="search_computers">Computers</string>
+    <string name="search_room_free">Free</string>
+    <string name="search_room_busy">Busy</string>
+    <string name="search_room_occupied">%1$s — until %2$s</string>
+
+    <!-- Messages -->
+    <string name="messagerie_login_prompt">Log in in the Profile tab to access your messages.</string>
+    <string name="messagerie_connecting">Connecting to messages…</string>
+    <string name="messagerie_connection_failed">Unable to connect to messages.</string>
+    <string name="messagerie_retry">Retry</string>
+
+    <!-- Inbox -->
+    <string name="inbox_title">Inbox</string>
+    <string name="inbox_received">Received</string>
+    <string name="inbox_sent">Sent</string>
+    <string name="inbox_empty">No emails yet.</string>
+    <string name="inbox_compose">Write an email</string>
+    <string name="inbox_no_subject">(no subject)</string>
+
+    <!-- Compose -->
+    <string name="compose_back_cd">Back</string>
+    <string name="compose_new_mail">New email</string>
+    <string name="compose_to">To</string>
+    <string name="compose_choose_recipient">Choose a recipient</string>
+    <string name="compose_subject_hint">Subject</string>
+    <string name="compose_message_hint">Write your message…</string>
+    <string name="compose_mail_sent">Email sent</string>
+    <string name="compose_send_error">Send error: %1$s</string>
+    <string name="compose_sending">Sending…</string>
+    <string name="compose_send">Send</string>
+
+    <!-- Mail detail -->
+    <string name="mail_title">Email</string>
+    <string name="mail_no_subject">(no subject)</string>
+    <string name="mail_from">From</string>
+    <string name="mail_to">To</string>
+    <string name="mail_date">Date</string>
+    <string name="mail_empty_body">(empty body)</string>
+    <string name="mail_date_format">EEEE, MMMM dd yyyy \'at\' HH:mm</string>
+
+    <!-- Student picker -->
+    <string name="student_picker_hint">Search for a student…</string>
+
+    <!-- Date picker -->
+    <string name="cal_prev_month_cd">Previous month</string>
+    <string name="cal_next_month_cd">Next month</string>
+    <string name="cal_cancel">Cancel</string>
+    <string name="cal_ok">OK</string>
+
+    <!-- CAS (getString() from Activity) -->
+    <string name="cas_cancelled">CAS login cancelled: %1$s</string>
+    <string name="cas_invalid_identity">Invalid CAS identity</string>
+    <string name="cas_student_not_found">Logged in as CAS user \"%1$s\" but student not found in the 4A INFO list.</string>
+</resources>

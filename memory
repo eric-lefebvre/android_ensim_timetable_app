@@ -1,0 +1,24 @@
+Lancement de l'app:
+- SharedPreferences récupère dernier profil connecté
+- SharedPreferences recupère dernier emploi du temps affiché
+
+Navigation:
+- Utilisation de NavHost
+- ENUM pour chaque onglet
+
+FireBase:
+- Utilisation de FireBase pour salles et mails
+- Anonyme autorisé à tout parce que flemme de sécurité
+- Rooms: https://planning.univ-lemans.fr/jsp/custom/modules/plannings/anonymous_cal.jsp
+?resources=<resourceId_salle>&projectId=8&calType=ical&nbWeeks=44
+Chaque salle a un id, on fetch l'url et on transforme en objets, puis en JSON qu'on stock dans firebase
+- Mails:
+
+Calendrier:
+
+
+Rechercher:
+
+
+Messagerie:
+- Auth pour n'afficher que ses mails (techniquement je les vois tous)

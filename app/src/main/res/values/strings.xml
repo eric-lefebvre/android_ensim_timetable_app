@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ENSIM_app</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_search">Rechercher</string>
+    <string name="nav_messages">Messagerie</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Calendrier -->
+    <string name="calendar_no_schedule">Choisis un emploi du temps dans l\'onglet Profil.</string>
+    <string name="calendar_loading_error">Erreur lors du chargement</string>
+    <string name="week_label">Semaine du %1$s au %2$s</string>
+
+    <!-- Détails cours -->
+    <string name="cours_date">Date</string>
+    <string name="cours_time">Horaire</string>
+    <string name="cours_teacher">Professeur</string>
+    <string name="cours_teachers">Professeurs</string>
+    <string name="cours_class">Classe</string>
+    <string name="cours_close">Fermer</string>
+    <string name="cours_empty">—</string>
+
+    <!-- Profil -->
+    <string name="profile_not_connected">Pas connecté</string>
+    <string name="profile_logout">Se déconnecter</string>
+    <string name="profile_login_cas">Se connecter avec le CAS</string>
+    <string name="profile_sending">Envoi…</string>
+    <string name="profile_fill_inbox_demo">Remplir la boîte (démo)</string>
+    <string name="profile_choose_schedule">Choisir un emploi du temps</string>
+    <string name="profile_unknown_schedule">Inconnu (#%1$d)</string>
+    <string name="profile_displayed_schedule">Emploi du temps affiché</string>
+    <string name="profile_demo_mails_created">%1$d mails de démo créés</string>
+    <string name="profile_seed_error">Erreur seed : %1$s</string>
+    <string name="profile_change_language_cd">Changer la langue</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+
+    <!-- Recherche -->
+    <string name="search_title">Trouver une salle libre</string>
+    <string name="search_button">Chercher</string>
+    <string name="search_error">Erreur lors de la recherche</string>
+    <string name="search_no_results">Aucune salle ne correspond à tes filtres</string>
+    <string name="search_now">Maintenant</string>
+    <string name="search_precise_time">Horaire précis</string>
+    <string name="search_filters">Filtres</string>
+    <string name="search_computers">Ordinateurs</string>
+    <string name="search_room_free">Libre</string>
+    <string name="search_room_busy">Occupée</string>
+    <string name="search_room_occupied">%1$s — jusqu\'à %2$s</string>
+
+    <!-- Messagerie -->
+    <string name="messagerie_login_prompt">Connecte-toi dans l\'onglet Profil pour accéder à ta messagerie.</string>
+    <string name="messagerie_connecting">Connexion à la messagerie…</string>
+    <string name="messagerie_connection_failed">Impossible de se connecter à la messagerie.</string>
+    <string name="messagerie_retry">Réessayer</string>
+
+    <!-- Boîte de réception -->
+    <string name="inbox_title">Boîte de réception</string>
+    <string name="inbox_received">Reçus</string>
+    <string name="inbox_sent">Envoyés</string>
+    <string name="inbox_empty">Aucun mail pour le moment.</string>
+    <string name="inbox_compose">Écrire un mail</string>
+    <string name="inbox_no_subject">(sans objet)</string>
+
+    <!-- Rédaction mail -->
+    <string name="compose_back_cd">Retour</string>
+    <string name="compose_new_mail">Nouveau mail</string>
+    <string name="compose_to">À</string>
+    <string name="compose_choose_recipient">Choisir un destinataire</string>
+    <string name="compose_subject_hint">Objet</string>
+    <string name="compose_message_hint">Écris ton message…</string>
+    <string name="compose_mail_sent">Mail envoyé</string>
+    <string name="compose_send_error">Erreur d\'envoi : %1$s</string>
+    <string name="compose_sending">Envoi…</string>
+    <string name="compose_send">Envoyer</string>
+
+    <!-- Détail mail -->
+    <string name="mail_title">Mail</string>
+    <string name="mail_no_subject">(sans objet)</string>
+    <string name="mail_from">De</string>
+    <string name="mail_to">À</string>
+    <string name="mail_date">Date</string>
+    <string name="mail_empty_body">(corps vide)</string>
+    <string name="mail_date_format">EEEE dd MMMM yyyy \'à\' HH:mm</string>
+
+    <!-- Sélecteur d'étudiant -->
+    <string name="student_picker_hint">Cherche un étudiant…</string>
+
+    <!-- Sélecteur de date -->
+    <string name="cal_prev_month_cd">Mois précédent</string>
+    <string name="cal_next_month_cd">Mois suivant</string>
+    <string name="cal_cancel">Annuler</string>
+    <string name="cal_ok">OK</string>
+
+    <!-- Connexion CAS (getString() depuis l'Activity) -->
+    <string name="cas_cancelled">Connexion CAS annulée : %1$s</string>
+    <string name="cas_invalid_identity">Identité CAS invalide</string>
+    <string name="cas_student_not_found">Connecté en CAS comme « %1$s » mais étudiant introuvable dans la liste 4A INFO.</string>
+</resources>

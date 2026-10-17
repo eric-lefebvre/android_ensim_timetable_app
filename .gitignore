@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Local config
+local.properties
+*.local.properties
+
+# IDE - IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# Android generated
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Built application files
+*.apk
+*.aar
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Keystore — never commit signing keys
+*.jks
+*.keystore
+
+# Google Services
+app/google-services.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/

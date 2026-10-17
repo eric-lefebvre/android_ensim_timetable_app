@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // /rooms/{roomName} — cache partagé des EDT de salles (TTL côté client).
+    // Tous les utilisateurs authentifiés peuvent lire et écrire.
+    match /rooms/{roomName} {
+      allow read, write: if request.auth != null;
+    }
+
+    // /mails/{mailId}
+    match /mails/{mailId} {
+      // Création : l'expéditeur doit s'identifier avec son uid Firebase.
+      allow create: if request.auth != null
+                    && request.resource.data.fromUid == request.auth.uid;
+
+      // Lecture : on autorise tout utilisateur authentifié.
+      // Le filtre toResourceId est fait côté client par la query inboxStream.
+      allow read: if request.auth != null;
+
+      // Update : marquage "read" uniquement (un seul champ change).
+      allow update: if request.auth != null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['read']);
+
+      // Pas de delete depuis l'app pour l'instant.
+      allow delete: if false;
+    }
+  }
+}
